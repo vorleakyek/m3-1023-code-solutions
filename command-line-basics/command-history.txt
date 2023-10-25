@@ -1,0 +1,86 @@
+    1  git branch command-line-basics
+    2  git switch command-line-basics
+    3  cd command-line-basics
+    4  man man
+    5  man cat
+    6  cat laziness.txt
+    7  cat impatience.txt
+    8  cat hubris.txt
+    9  man cat
+   10  cat laziness.txt impatience.txt hubris.txt 
+   11  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt 
+   12  cat three-virtues.txt
+   13  man ls
+   14  man ls
+   15  ls lfz-staff
+   16  ls -a lfz-staff
+   17  ls -F lfz-staff
+   18  ls
+   19  ls -a
+   20  ls -F
+   21  man ls
+   22  ls lfz-staff/
+   23  ls -a lfz-staff/
+   24  ls -F lfz-staff/
+   25  ls -aF lfz-staff > lfz-staff/contents.txt
+   26  cat lfz-staff/contents.txt
+   27  man ls
+   28  man pwd
+   29  pwd 
+   30  man pwd
+   31  pwd > i-was-here.txt
+   32  ls 
+   33  cat i-was-here.txt
+   34  man echo
+   35  echo 'Hello, World!"
+   36  echo "Hello, World!"
+   37  echo 'Hello, WorldQ'
+   38  echo "Hello, World!"
+   39  clear
+   40  echo 'Hello, World!'
+   41  echo 'Hello, World!' > hello.txt
+   42  ls
+   43  cat hello.txt
+   44  man touch
+   45  touch tag-youre-it.txt
+   46  touch snoot/boop.txt
+   47  touch ./snoot/boop.txt
+   48  cd command-line-basics
+   49  touch tag-youre-it.txt
+   50  touch snoot/boop.txt
+   51  ls snoot/
+   52  man mkdir
+   53  man mkdir
+   54  mkdir parent
+   55  ls
+   56  mkdir -p parent/child/grandchild
+   57  touch .gitkeep parent/child/grandchild
+   58  ls -a
+   59  ls -a parent/child/grandchild
+   60  touch parent/child/grandchild/.gitkeep
+   61  ls -a parent/child/grandchild
+   62  man mv
+   63  mv pokiemans pokemon
+   64  ls
+   65  man rm
+   66  man rm
+   67  rm lol.txt
+   68  ls
+   69  rm -r kill-me/
+   70  ls
+   71  man cp
+   72  man cp
+   73  cp and-them.txt no-and-then.txt
+   74  man cp
+   75  cp -T  and-them.txt no-and-then.txt
+   76  man cp
+   77  cp and-then.txt
+   78  clear
+   79  cp and-then.txt
+   80  cp and-then.txt no-and-then.txt
+   81  ls
+   82  cat and-then.txt no-and-then.txt
+   83  man histroy
+   84  man history
+   85  history
+   86  history > command-history.txt
