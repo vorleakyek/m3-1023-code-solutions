@@ -1,0 +1,27 @@
+{
+  "name": "express-notes-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "ts-node-esm server.ts",
+    "dev": "nodemon server.ts"
+  },
+  "nodemonConfig": {
+    "execMap": {
+      "ts": "ts-node-esm",
+      "js": "ts-node-esm"
+    },
+    "ignore": [
+      "data.json"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.5",
+    "nodemon": "^2.0.2"
+  }
+}
