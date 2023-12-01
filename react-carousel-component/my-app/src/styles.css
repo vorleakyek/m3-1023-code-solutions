@@ -1,0 +1,54 @@
+.container {
+  border: 3px solid black;
+  max-width: 900px;
+  padding: 20px 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sideNav {
+  flex-basis: 10%;
+  padding: 20px 0;
+}
+
+.mainContent {
+  flex-basis: 80%;
+}
+
+.dotsUl {
+  padding: 0;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.filled-circle {
+  background-color: black;
+}
+
+i {
+  font-size: 36px;
+}
+
+ol {
+  list-style: none;
+}
+
+li,
+span {
+  display: block;
+  margin: 3px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
