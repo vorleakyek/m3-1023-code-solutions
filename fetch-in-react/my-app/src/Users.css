@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h3 {
+  cursor: pointer;
+}
+
+h3,
+h4 {
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 0.75rem;
+  color: rgb(80, 80, 80);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  margin-left: 0.4rem;
+}
+
+li:not(:last-child) {
+  border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
