@@ -1,0 +1,16 @@
+.about {
+  margin: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  background-image: url('/hylian-emblem.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about .text {
+  margin: auto;
+  padding-top: 10%;
+  width: 50%;
+  text-align: center;
+  font-size: xx-large;
+}

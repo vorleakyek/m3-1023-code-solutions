@@ -1,0 +1,9 @@
+.image {
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
+}
+
+.long-description {
+  white-space: pre-wrap;
+}

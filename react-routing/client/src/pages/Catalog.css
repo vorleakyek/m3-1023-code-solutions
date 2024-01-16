@@ -1,0 +1,14 @@
+.product {
+  display: block;
+  cursor: pointer;
+}
+
+.image {
+  height: 300px;
+  object-fit: contain;
+}
+
+.description {
+  height: 4.5rem;
+  overflow: hidden;
+}
