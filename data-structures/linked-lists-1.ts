@@ -10,12 +10,16 @@ export function getHead<T>(list: LinkedList<T>): T | null {
   }
 }
 
-export function updateHead<T>(list: LinkedList<T>, value: T | null): void {}
+export function updateHead<T>(list: LinkedList<T>, value: T | null): void {
+  list.data = value;
+}
 
 export function withoutHead<T>(list: LinkedList<T>): LinkedList<T> | null {
-  return null;
+  return list.next;
 }
 
 export function prepend<T>(list: LinkedList<T>, value: T): LinkedList<T> {
-  return list;
+  const newHead = new LinkedList<T>(value);
+  newHead.next = list;
+  return newHead;
 }
