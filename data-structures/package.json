@@ -1,0 +1,26 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "test-lib": "jest --watchAll ./lib",
+    "test-stacks-1": "jest --watchAll stacks-1.test.ts",
+    "test-stacks-2": "jest --watchAll stacks-2.test.ts",
+    "test-stacks-3": "jest --watchAll stacks-3.test.ts",
+    "test-queues-1": "jest --watchAll queues-1.test.ts",
+    "test-queues-2": "jest --watchAll queues-2.test.ts",
+    "test-queues-3": "jest --watchAll queues-3.test.ts",
+    "test-linked-lists-1": "jest --watchAll linked-lists-1.test.ts",
+    "test-linked-lists-2": "jest --watchAll linked-lists-2.test.ts",
+    "test-linked-lists-3": "jest --watchAll linked-lists-3.test.ts",
+    "test": "jest --watchAll"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "eslint": "^8.42.0",
+    "eslint-plugin-jest": "^27.2.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0"
+  }
+}
